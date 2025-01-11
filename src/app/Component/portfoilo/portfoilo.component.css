@@ -1,0 +1,22 @@
+.portoilo {
+    background-color: #1abc9c;
+    min-height: calc(100vh - 100px);
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.line {
+    width: 70px;
+    height: 4px;
+    background-color: white;
+  }
+
+.layer{
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.rounded-3:hover .layer {
+    opacity: 1;
+}
