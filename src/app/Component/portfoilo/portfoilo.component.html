@@ -13,71 +13,21 @@
             </div>
         </div>
   
-      <!-- portoilo Content -->
-      <div class="container portfilo-contant">
-        <div class="row g-2 ">
-            <div class="col-lg-4 col-md-6">
-                <div class="rounded-3 overflow-hidden position-relative">
-                  <img class="w-100 rounded-3" src="poert1.png" alt="Portfolio Item">
-                  <!--  Layer -->
+
+        <div class="container portfilo-contant">
+          <div class="row g-2">
+            @for (item of portfolioItems; track $index) {
+              <div class="col-lg-4 col-md-6">
+                <div class="rounded-3 overflow-hidden position-relative portfolio-item" >
+                  <img class="w-100 rounded-3" [src]="item.src" alt="Portfolio Item">
                   <div class="layer position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center">
                     <i class="text-white fa-solid fa-plus fa-6x"></i>
                   </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="rounded-3 overflow-hidden position-relative">
-                  <img class="w-100 rounded-3" src="poert1.png" alt="Portfolio Item">
-              
-                  <!--  Layer -->
-                  <div class="layer position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center">
-                    <i class="text-white fa-solid fa-plus fa-6x"></i>
-                  </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="rounded-3 overflow-hidden position-relative">
-                  <img class="w-100 rounded-3" src="poert1.png" alt="Portfolio Item">
-              
-                  <!--  Layer -->
-                  <div class="layer position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center">
-                    <i class="text-white fa-solid fa-plus fa-6x"></i>
-                  </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="rounded-3 overflow-hidden position-relative">
-                  <img class="w-100 rounded-3" src="poert1.png" alt="Portfolio Item">
-              
-                  <!--  Layer -->
-                  <div class="layer position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center">
-                    <i class="text-white fa-solid fa-plus fa-6x"></i>
-                  </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="rounded-3 overflow-hidden position-relative">
-                  <img class="w-100 rounded-3" src="poert1.png" alt="Portfolio Item">
-              
-                  <!--  Layer -->
-                  <div class="layer position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center">
-                    <i class="text-white fa-solid fa-plus fa-6x"></i>
-                  </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="rounded-3 overflow-hidden position-relative">
-                  <img class="w-100 rounded-3" src="poert1.png" alt="Portfolio Item">
-              
-                  <!--  Layer -->
-                  <div class="layer position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center">
-                    <i class="text-white fa-solid fa-plus fa-6x"></i>
-                  </div>
-                </div>
-            </div>
-              
+              </div>
+            }
+          </div>
         </div>
-      </div>
     </div>
   </div>
   
