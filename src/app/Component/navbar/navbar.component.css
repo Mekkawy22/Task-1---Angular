@@ -2,31 +2,24 @@
   background-color: #2c3e50;
 }
 .nav-padding {
-  padding: 0 100px;
+  padding: 30px 100px;
 }
+.nav-padding-scrollY {
+    padding: 15px 100px;
+  }
 .active {
   background-color: #1abc9c;
 }
 @media (max-width: 767px) {
-    .navbar{
-        padding: 20px 10px !important;
-    }
-    .navbar .navbar-brand{
-        font-size: 1.6rem !important; 
-    }
+   
+    .nav-padding {
+        padding: 20px 30px;
+      }
+      .nav-padding-scrollY {
+          padding: 10px 30px;
+        }
     li{
         width: 20%;
     }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-    .navbar{
-        padding: 20px 10px !important;
-    }
-    .navbar .navbar-brand{
-        font-size: 2rem !important; 
-    }
-    li{
-        width: 20%;
-    }
-}
