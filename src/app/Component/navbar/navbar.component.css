@@ -13,10 +13,10 @@
 @media (max-width: 767px) {
    
     .nav-padding {
-        padding: 20px 30px;
+        padding: 10px 30px;
       }
       .nav-padding-scrollY {
-          padding: 10px 30px;
+          padding: 10px 20px;
         }
     li{
         width: 20%;
